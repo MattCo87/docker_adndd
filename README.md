@@ -4,7 +4,7 @@ Installation d'un environnement LAMP avec Docker et Symfony4.
 ## Installation  
 
 1. Cloner le dépôt Git :  
-`$ git clone https://github.com/nicolasvauche/docker_sf4.git`  
+`$ git clone https://github.com/MattCo87/adndd`  
 
 2. Dupliquer le fichier `.env-sample` et le renommer en `.env` :  
 `$ cd docker_sf4`  
