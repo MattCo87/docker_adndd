@@ -26,12 +26,13 @@ Installation d'un environnement LAMP avec Docker et Symfony4.
 `$ cp .env .env.local`  
 
 8. Paramétrer l'accès à votre base de données :  
-`DATABASE_URL="mysql://[YOUR_DB_USER]:[YOUR_PASSWORD]@adndd_db_1:3306/[YOUR_DATABASE_NAME]?serverVersion=5.7"`  
+`DATABASE_URL="mysql://[YOUR_DB_USER]:[YOUR_PASSWORD]@adndd_mysql:3306/[YOUR_DATABASE_NAME]?serverVersion=5.7"`  
 
 9. Installer les dépendances de Symfony avec Composer :  
 `composer install`  
 
 ## Utilisation  
 Dans votre navigateur :  
-    http://127.0.0.1:8080 => Votre application  
-    http://127.0.0.1:8081 => Adminer
+- http://127.0.0.1:[HTTP_PORT] => Votre application  
+- http://127.0.0.1:[ADMINER_PORT] => Adminer  
+- http://127.0.0.1:[MAILDEV_PORT] => MailDev
